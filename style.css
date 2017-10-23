@@ -1,0 +1,42 @@
+body {
+  background: #fafafa;
+}
+
+form {
+  width: 28.7vw;
+  margin: 0 auto;
+  padding-top: 28.7vh;
+}
+
+input {
+  width: 100%;
+  color: #777;
+  font-size: 18px;
+  display: block;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  background: #ddd;
+  border-radius: 2px;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type=submit] {
+  cursor: pointer;
+  position: relative;
+  top: 2rem;
+  width: 50%;
+  margin: 0 auto;
+  height: auto;
+}
+
+input[type=submit]:hover {
+  background: #ccc;
+  transition: background 0.2s ease-in-out;
+}
